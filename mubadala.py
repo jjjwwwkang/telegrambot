@@ -51,7 +51,7 @@ def extract_links(old_links=[]) :
 async def main() :
     # 텔레그램 봇 토큰
     my_token = '6002394793:AAEzY2Jkb3KZsIM_Buon9unq2bqcaKgCXj8'
-    chat_id = 93432349
+    chat_id = -1001611490384 #-844600188  #6184151513 #93432349
     # 텔레그램 봇 생성
     bot = telegram.Bot(token=my_token)
     await bot.sendMessage(chat_id, text=contents)
